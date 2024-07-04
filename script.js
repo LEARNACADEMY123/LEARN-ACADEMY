@@ -61,6 +61,9 @@ $(document).ready(function() {
             url: 'https://api.github.com/repos/LEARNACADEMY123/LEARN-ACADEMY/issues',
             type: 'POST',
             headers: {
+                'Authorization': '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',
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json'
             },
             data: JSON.stringify({
                 title: `New User: ${nome}`,
